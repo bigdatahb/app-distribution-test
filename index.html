@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My App Download</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; padding: 20px; }
+        .btn { 
+            display: inline-block; 
+            padding: 10px 20px; 
+            background: #007bff; 
+            color: white; 
+            text-decoration: none; 
+            border-radius: 5px; 
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>My Flutter App</h1>
+    <p>Version 1.0.0</p>
+    <a href="app-release.apk" class="btn">Download APK</a>
+    <!-- 可选：生成二维码 -->
+    <p>或扫码安装：</p>
+    <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://bigdatahb.github.io/my-app-distribution/app-release.apk" alt="QR Code">
+    <p>安装提示：需开启“允许安装未知来源应用”。</p>
+</body>
+</html>
